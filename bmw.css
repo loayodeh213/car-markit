@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;}
+body{
+    background-image: url(SSS.jpg);
+}
+    img{
+    object-fit: cover;
+width: 100%;;
+height: 600px;;;
+box-shadow: 1px 1px 20px rgb(255, 255, 255);
+}
+#logo{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+    padding: 10px;
+}
+ul li p {text-decoration:none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+    #h {
+  list-style: none;           /* لإزالة النقطة */
+  font-size: 32px;            /* حجم الخط */
+  font-weight: bold;          /* جعل الخط عريض */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* نوع الخط */
+  color: #ffffff;                /* لون عام للنص */
+  text-align: left;           /* المحاذاة لليسار */
+  margin: 0px 0;             /* مسافة فوق وتحت */
+}
+
+.highlight {
+  color: #3c86f5;             /* لون مميز لكلمة markiting */
+}
+.card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #657dea;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  text-align: center;}
+  .card h2 {
+  margin-bottom: 15px;
+  color: #feec48;}
+  .card p {
+  color: #ffffff;
+  line-height: 1.6;
+}
+.items {
+  display: flex;
+  gap: 1rem; /* إضافة مسافة بين الكروت */
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.sellcar {
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  width: 20rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.sellcar:hover {
+  box-shadow: 2px 8px 16px 2px rgb(240, 0, 0);
+}
+
+.texts {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.imege:hover {
+  width: 100%;
+  height: 100%;
+
+}
