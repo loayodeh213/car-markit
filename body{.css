@@ -1,0 +1,142 @@
+
+body{
+    background-image:url("BACK.jpg");
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: 450%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type:none;
+    margin: 0%;
+    padding: 0%;
+}
+ul li{
+    width: 110px;
+    height: 40px;
+    background-color: aliceblue;
+    font-size: 14px;
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.8; 
+    float: left;
+}
+ul li a{
+    text-decoration:none;
+    color: black;
+    display: block;
+
+}
+ul li a:hover ,ul li:hover{
+    background-color: rgb(0, 0, 0);
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+img{
+    object-fit: cover;
+width: 100%;;
+height: 500px;;;
+box-shadow: 1px 1px 20px rgb(255, 255, 255);
+
+}
+#as button{
+
+}
+ul{
+    list-style-type:none;
+    margin: 0%;
+    padding: 0%;
+}
+ul li{
+    width: 110px;
+    height: 40px;
+    background-color: aliceblue;
+    font-size: 14px;
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.8; 
+    float:inherit;
+}
+ul li a{
+    text-decoration:none;
+    color: black;
+    display: block;
+
+}
+ul li a:hover ,ul li:hover{
+    background-color: rgb(240, 56, 56);
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+#logo{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    display:inline-block;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0.8; 
+    float: right;
+    padding: 5px;
+}
+.card {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fa3434;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;}
+  .card h2 {
+  margin-bottom: 15px;
+  color: #feec48;
+}
+.card p {
+  color: #495057;
+  line-height: 1.6;
+}
+.items {
+  display: flex;
+  gap: 1rem; /* إضافة مسافة بين الكروت */
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.sellcar {
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  width: 20rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.sellcar:hover {
+  box-shadow: 2px 8px 16px 2px rgb(240, 0, 0);
+}
+
+.texts {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.imege:hover {
+  width: 100%;
+  height: 100%;
+
+}
